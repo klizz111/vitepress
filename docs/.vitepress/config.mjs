@@ -104,7 +104,7 @@
     },
     lastUpdated: true,
     lang : 'zh-CN',
-    title: "用户注册",
+    title: "老狼王の小窝",
     description: "zzzz",
     logo: "img/favicon.ico",
     appearance: 'dark',
@@ -131,7 +131,7 @@
         
         //Guide
         {
-          text: '关于我们',
+          text: '个人项目',
           items: [
             {
               text: 'CPP课程项目',
@@ -145,7 +145,7 @@
         },
 
         //😭
-        { text:'用户社区',
+        { text:'😭',
           items:[
             { text: '🤡', link: 'https://www.emojiall.com/zh-hans/emoji/%F0%9F%A4%A1'},
             { text: '🤓', link:'https://www.emojiall.com/zh-hans/emoji/%F0%9F%A4%93'},
@@ -154,7 +154,7 @@
         },
 
         {
-          text: '产品商城',
+          text: '电子手办',
           items:[
             {text: 'Cubism 2',link: 'https://klizz.online/z_live2D/indexe.html'},
             {text: 'Cubism 3',link: 'https://klizz.online/z_live2D/live2d_3/indexe.html'},
@@ -162,7 +162,7 @@
         },
 
         //About me
-        { text: '文化探索', link: 'https://github.com/klizz111' },
+        { text: 'About Me', link: 'https://github.com/klizz111' },
       ],
 
 

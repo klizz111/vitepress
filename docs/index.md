@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "莞月沉檀🌸"
-  text: "香脉云链——非遗莞香OMO数字化生态赋能体系构建者"
+  name: "老狼王的小窝"
+  text: "🐮👿"
   tagline: 
 
   image:
@@ -12,28 +12,28 @@ hero:
 
   actions:
     - theme: brand
-      text: AI助手
+      text: RDP
       link: /rdp
     - theme: alt
-      text: 课程体验
+      text: CPP课程项目
       link: /cpp_project_list
     - theme: brand
-      text: 互动论坛
+      text: Cubism 2
       link: 'https://klizz.online/z_live2D/indexe.html'
     - theme: alt
-      text: 历史溯源
+      text: Cubism 3
       link: 'https://klizz.online/z_live2D/live2d_3/indexe.html'
 
 features:
-  - title: 莞香故事
+  - title: 🤡👉🏻🤡
     icon: 📚️
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 莞香技艺
+    details: ✌️🥵✌️
+  - title: 😎🤏🕶😭
     icon: 🏺
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 莞香传承
+    details: 🐂🐸
+  - title: 😅🙏
     icon: ❤
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 🛁😤🐑🐑
 ---
 
 
