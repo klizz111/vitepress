@@ -18,8 +18,8 @@ hero:
       text: CPP课程项目
       link: /cpp_project_list
     - theme: brand
-      text: Cubism 2
-      link: 'https://klizz.online/z_live2D/indexe.html'
+      text: VSCode个性化
+      link: /vscode_customize
     - theme: alt
       text: Cubism 3
       link: 'https://klizz.online/z_live2D/live2d_3/indexe.html'
