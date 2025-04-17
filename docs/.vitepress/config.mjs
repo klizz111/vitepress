@@ -136,9 +136,9 @@
             {
               text: 'CPP课程项目',
               items: [
-                { text: '项目一', link: '/cpp_1' },
-                { text: '项目二', link: '/cpp_2' },
-                { text: '项目三', link: '/cpp_3' },
+                { text: '项目一', link: '/cpp/cpp_1' },
+                { text: '项目二', link: '/cpp/cpp_2' },
+                { text: '项目三', link: '/cpp/cpp_3' },
               ]
             },
           ]
@@ -174,6 +174,8 @@
             { text: '远程桌面', link: '/rdp' },
             { text: 'C++项目', link: '/cpp_project_list' },
             { text: 'VSCode自定义主题', link: '/vscode_customize' },
+            { text: '格密码学习', link: '/lattice/contents' },
+            { text: 'Solidity快速入门', link: '/solidity/solidity_1' },
           ]
         },
       ],
