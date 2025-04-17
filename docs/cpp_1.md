@@ -4,7 +4,11 @@ head:
   - - link
     - rel: stylesheet
       href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
-lastUpdated: true
+lastUpdated: false
+next: 
+    text: 课程项目二：大数计算
+    link: /cpp_2
+prev: false
 ---
 # 课程项目一：乘法程序
 ## 项目需求

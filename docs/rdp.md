@@ -1,6 +1,5 @@
 ---
 outline: deep
-lastUpdated: true
 ---
 <div style="background-color: #ffcccc; margin: 0; padding: 0;">
 

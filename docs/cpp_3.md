@@ -4,7 +4,13 @@ head:
   - - link
     - rel: stylesheet
       href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
-lastUpdated: true
+lastUpdated: false
+
+prev: 
+    text: 课程项目二：复数运算
+    link: /cpp_2
+
+next: false
 ---
 
 # 课程项目三：文本查询程序

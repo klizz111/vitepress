@@ -1,6 +1,12 @@
 ---
 outline: deep
-lastUpdated: true
+lastUpdated: false
+
+prev: false
+
+next: 
+    text: 课程项目一：乘法程序
+    link: /cpp_1
 ---
 # 2024秋季学期C++课程项目归档
 1. [课程项目一：乘法程序](/cpp_1)

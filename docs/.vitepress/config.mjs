@@ -102,7 +102,7 @@
         }
       }
     },
-    lastUpdated: true,
+    lastUpdated: false,
     lang : 'zh-CN',
     title: "老狼王の小窝",
     description: "zzzz",
@@ -156,8 +156,8 @@
         {
           text: '电子手办',
           items:[
-            {text: 'Cubism 2',link: 'https://klizz.online/z_live2D/indexe.html'},
-            {text: 'Cubism 3',link: 'https://klizz.online/z_live2D/live2d_3/indexe.html'},
+            {text: 'Cubism 2',link: 'https://klizz.top/z_live2D/indexe.html'},
+            {text: 'Cubism 3',link: 'https://klizz.top/z_live2D/live2d_3/indexe.html'},
           ]
         },
 
@@ -173,6 +173,7 @@
           items: [
             { text: '远程桌面', link: '/rdp' },
             { text: 'C++项目', link: '/cpp_project_list' },
+            { text: 'VSCode自定义主题', link: '/vscode_customize' },
           ]
         },
       ],
@@ -207,7 +208,6 @@
         copyright:"CopyRight@ 2024 Klizz",
       }, 
         
-      
       //编辑链接
       editLink: {
         pattern: 'https://github.com/klizz111/klizz111.github.me/',
@@ -217,7 +217,7 @@
       //最后更新时间
       lastUpdated: 
       {
-        text: 'Updated at',
+        text: '更新于',
         formatOptions:
         {
           dateStyle: 'full',

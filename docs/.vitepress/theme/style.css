@@ -89,34 +89,32 @@
     );
 }
 
-/*定义滚动条高宽及背景
- 高宽分别对应横竖滚动条的尺寸*/
-::-webkit-scrollbar {
-    width: 16px;
-    height: 16px;
-    background-color: #f5f5f500;
-}
 /*定义滚动条轨道
   内阴影+圆角*/
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: none;
-    border-radius: 10px;
-    background-color: transparent;
-}
-/*定义滑块
-  内阴影+圆角*/
 ::-webkit-scrollbar-thumb:vertical {
-    filter: drop-shadow(0 0 5px #28b2b9bd) !important;
-    background: linear-gradient(to bottom, #1ae72b, #03edf9) !important;
-    opacity: 0.3 !important;
+    filter: drop-shadow(0 0 5px #28b2b9bd);
+    background: linear-gradient(to bottom,#1ae72b,#03edf9);
+    opacity: 0.3;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
-    filter: drop-shadow(0 0 5px #28b2b9bd) !important;
-    background: linear-gradient(to right, #1ae72b, #03edf9) !important;
-    opacity: 0.3 !important;
-    border-radius: 10px !important;
+    filter: drop-shadow(0 0 5px #28b2b9bd);
+    background: linear-gradient(to right,#1ae72b,#03edf9);
+    opacity: 0.3;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: transparent; /* 改为透明背景 */
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1); /* 半透明轨道 */
 }
 
 @keyframes glow {
