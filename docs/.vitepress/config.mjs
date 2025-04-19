@@ -144,11 +144,12 @@
           ]
         },
 
-        //😭
-        { text:'😭',
+        //格密码
+        { text:'格密码',
           items:[
-            { text: '🤡', link: 'https://www.emojiall.com/zh-hans/emoji/%F0%9F%A4%A1'},
-            { text: '🤓', link:'https://www.emojiall.com/zh-hans/emoji/%F0%9F%A4%93'},
+            { text: '一、什么是格', link: '/lattice/lattice_1' },
+            { text: '二、Babai算法', link:'/lattice/lattice_2'},
+            { text: '三、GGH加密方案', link:'/lattice/lattice_3'},
             { text: '😤', link:'https://www.emojiall.com/zh-hans/emoji/%F0%9F%98%A4'},
           ]
         },
@@ -207,7 +208,7 @@
 
       // 页脚
       footer:{
-        copyright:"CopyRight@ 2024 Klizz",
+        copyright:"CopyRight@ 2025 Klizz",
       }, 
         
       //编辑链接
