@@ -44,6 +44,78 @@
  * -------------------------------------------------------------------------- */
 
 :root {
+  --vp-font-family-base: 'Consolas', 'Monaco', 'Courier New', monospace;
+  --vp-font-family-mono: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+/* 强制所有文本使用Consolas字体 */
+* {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+}
+
+/* 针对特定元素 */
+body, .vp-doc {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+}
+
+/* 代码块字体 */
+code, pre, .language-* {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+}
+
+/* Default */
+.VPDoc h1 {
+    background: -webkit-linear-gradient(10deg, #34d1ed 5%, #3ae26c 15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+:root {
+
+    /* 首页下滑后导航透明 */
+    .VPNavBar:not(.has-sidebar):not(.home.top) {
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+    }
+
+    /* 搜索框透明 */
+    .DocSearch-Button {
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+    }
+
+    /* Feature透明 */
+    .VPFeature {
+        border: none;
+        box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%);
+        background-color: transparent;
+    }
+
+    /* 文档页侧边栏顶部透明 */
+    .curtain {
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+    }
+
+    @media (min-width: 960px) {
+
+        /* 文档页导航中间透明 */
+        .VPNavBar:not(.home.top) .content-body {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(10px);
+        }
+    }
+
+    /* 移动端大纲栏透明 */
+    .VPLocalNav {
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+    }
+
+}
+
+:root {
     --vp-c-default-1: var(--vp-c-gray-1);
     --vp-c-default-2: var(--vp-c-gray-2);
     --vp-c-default-3: var(--vp-c-gray-3);
@@ -204,4 +276,6 @@
     color: transparent;
     -webkit-text-fill-color: transparent;
 }
+
+
 

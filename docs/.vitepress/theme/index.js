@@ -2,12 +2,19 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import update from "./components/update.vue"
+import Terminal from './components/Terminal.vue'
+import MathFormula from './components/MathFormula.vue'
+import "./style/index.css"
+import 'virtual:group-icons.css' 
 
+// import ArticleMetadata from "./components/ArticleMetadata.vue"
+let homePageStyle = undefined
 
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
-  Layout: () => {
+  Layout: () => { 
     return h(DefaultTheme.Layout, null, {
       default: () => [
         h(DefaultTheme.Content),
@@ -15,7 +22,11 @@ export default {
       ]
     })
   },
-  async enhanceApp() {
+  async enhanceApp( {app} ) {
+    app.component('update' , update)
+    app.component('Terminal', Terminal)
+    //app.component('MathFormula', MathFormula)
+
     if (!import.meta.env.SSR) {
       const { loadOml2d } = await import('oh-my-live2d');
       const oml2d = loadOml2d({

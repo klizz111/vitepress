@@ -3,7 +3,7 @@ outline: deep
 head:
   - - link
     - rel: stylesheet
-      href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
+      href: /katex.min.css
 lastUpdated: false
 
 prev: 
@@ -13,7 +13,43 @@ next:
     text: 课程项目三：文本查询程序
     link: /cpp_3
 ---
+<style>
+.terminal {
+  background-color: #2d2d2d;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  margin: 20px 0;
+  overflow: hidden;
+}
 
+.terminal-header {
+  background-color: #424242;
+  padding: 10px;
+  display: flex;
+  gap: 6px;
+}
+
+.terminal-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.red { background-color: #FF5F56; }
+.yellow { background-color: #FFBD2E; }
+.green { background-color: #27C93F; }
+
+.terminal-content {
+  padding: 15px;
+  color: #fff;
+  font-family: monospace;
+}
+
+.terminal-content pre {
+  margin: 0;
+  white-space: pre-wrap;
+}
+</style>
 # 课程项目二：复数运算
 
 ## 项目需求
@@ -25,18 +61,31 @@ next:
 ### 程序编译及运行环境
 
 编译命令：	
-` cwd = ${fileDir}  
-` cd build  
-` cmake ..  
-` make  
+
+<div class="terminal">
+  <div class="terminal-header">
+    <div class="terminal-button red"></div>
+    <div class="terminal-button yellow"></div>
+    <div class="terminal-button green"></div>
+  </div>
+  <div class="terminal-content">
+    <pre><code>$ cwd = ${fileDir}
+$ cd build  
+$ cmake .. 
+$ make </code></pre>
+  </div>
+</div>
+  
 
 生成文件在项目根目录下,命名为Complex
 
 ![image1](/img/cpp2/image001.png)
 
-` Ubuntu 24.04 LTS  
-` cmake version 3.28.3  
-` gcc (Ubuntu 13.2.0-23ubuntu4) 13.2.0  
+` Ubuntu 24.04 LTS  ` 
+
+` cmake version 3.28.3  ` 
+
+` gcc (Ubuntu 13.2.0-23ubuntu4) 13.2.0  ` 
 
 ### 程序特点
 支持变量的连续的加减乘除;支持变量与数的混合运算与括号解析;支持对复杂合表达式的运算;支持任意长度的大数加减乘运算；支持自增、自减、+=等符号操作;有部分的错误输入提示。
@@ -74,7 +123,7 @@ std::string stringSqrt(const std::string &num1, const std::string &num2);
 
 ### 复数类的实现
 
-将程序中将所有的数据都使用字符串存储到complexObject对象中，并重各种运算符，定义con()/mod()友元函数
+将程序中将所有的数据都使用字符串存储到complexObject对象中，并重载各种运算符，定义$con()/mod()$友元函数
 
 ```cpp
 //complexObject.h

@@ -1,6 +1,6 @@
 # 目录
 
-> 资料来源于[Dapplearning](https://dapplearning.org/reward)社区的[@lynndell11](https://x.com/lynndell11),[文档地址](https://drive.google.com/file/d/1vLUwb69AzB-izVuNdwquNh1P6BQDgcAz/view?usp=sharing)或[这里](https://klizz.top/lattice/全同态加密理论_生态现状与未来展望.pdf)，同时参考了《*格密码设计与安全证明技术*》一书。\(王凤和，北京邮电大学出版社\)
+> 资料来源于[Dapplearning](https://dapplearning.org/reward)社区的[@lynndell11](https://x.com/lynndell11),[文档地址](https://drive.google.com/file/d/1vLUwb69AzB-izVuNdwquNh1P6BQDgcAz/view?usp=sharing)，同时参考了《*格密码设计与安全证明技术*》一书。\(王凤和，北京邮电大学出版社\)
 
 <style>
 img.blur-effect {

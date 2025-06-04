@@ -3,7 +3,7 @@ outline: deep
 head:
   - - link
     - rel: stylesheet
-      href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
+      href: /katex.min.css
 lastUpdated: false
 next: 
     text: 课程项目二：大数计算
